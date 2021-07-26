@@ -595,7 +595,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form{
 display: flex;
-justify-content: space-between;
 }
 .footer-form-title{
 align-items: center;
