@@ -486,10 +486,10 @@ padding-top: 60px;
 padding-bottom: 60px;
 margin: auto;
 }
-/*.footer-container{
+
+.footer-menu{
 align-items: center;
-padding-left: 200px;
-}*/
+}
 
 .logo-footer{
 margin-bottom: 30px;
@@ -554,11 +554,11 @@ margin-bottom: 15px;
 }
 .footer{
 display: flex;
-margin-left: 70px;
+margin-left: 80px;
 align-items: baseline;
 }
 .footer-social{
-margin-left: 70px;
+margin-left: 86px;
 }
 .footer-social-list-title{
 font-weight: bold;
@@ -596,6 +596,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form{
 display: flex;
+margin-left: 86px;
 }
 .footer-form-title{
 align-items: center;
@@ -606,15 +607,17 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--accent-text-color);
 margin-bottom: 20px;
+margin-left: 86px;
 }
 /*.footer-form-holder {
 display: flex;
 justify-content: space-between;
-}*/
+}
 
 .footer-form-holder {
 margin-left: 70px;
-}
+}*/
+
 .footer-form-input {
 width: 358px;
 height: 50px;
@@ -804,7 +807,6 @@ position: absolute;
 left: 50%;
 top: 50%;
 width: 528px;
-height: 580px;
 background-color: var(--accent-text-color);
 transform: translate(-50%, -50%);
 border-radius: 4px;
@@ -855,6 +857,9 @@ font-size: 12px;
 color: #757575;
 margin-bottom: 16px;
 }
+.field-title{
+margin-bottom: 6px;
+}
 .modal-form-input-wrapper{
 position: relative;
 margin-top: 4px;
@@ -891,7 +896,6 @@ fill: var(--accent-color)
 box-sizing: border-box;
 width: 100%;
 height: 120px;
-margin-top: 6px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 padding: 12px 16px;
