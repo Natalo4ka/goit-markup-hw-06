@@ -26,27 +26,22 @@ margin-top: 0;
 margin-bottom: 0;
 padding-left: 0;
 }
-
 img {
 display: block;
 max-width: 100%;
 }
-
 .list{
 list-style: none;
 }
 .link{
 text-decoration: none;
 }
-
-
 .container {
 width: 1200px;
 margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
 }
-
 .visually-hidden{
 position: absolute !important;
 clip: rect(1px 1px 1px 1px);
