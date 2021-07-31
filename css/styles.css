@@ -48,14 +48,14 @@ padding-right: 15px;
 }
 
 .visually-hidden{
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px 1px 1px 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
+position: absolute !important;
+clip: rect(1px 1px 1px 1px);
+clip: rect(1px 1px 1px 1px);
+padding: 0 !important;
+border: 0 !important;
+height: 1px !important;
+width: 1px !important;
+overflow: hidden;
 }
 /*=========== HEADER =========*/
 body {
@@ -83,11 +83,9 @@ line-height: 1.2;
 letter-spacing: 0.03em;
 color: var(--accent-color);
 margin-right: 90px;
-
-animation-duration: 1000ms;
 }
 .logo-header-part-2{
-color: #000000;
+color: var(--main-text-color);
 }
 .menu-link{
 font-family: var(--main-font);
@@ -122,7 +120,6 @@ color: var(--accent-color);
 display: flex;
 align-items: center;
 }
-
 .menu-list{
 display: flex;
 align-items: center;
@@ -144,7 +141,6 @@ letter-spacing: 0.02em;
 color: var(--secondary-text-color);
 transition: color 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .mail-link:hover,
 .mail-link:focus{
@@ -162,7 +158,6 @@ display: flex;
 transition: color 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-}
 .tel-link:hover,
 .tel-link:focus{
 color: var(--accent-color);
@@ -174,7 +169,6 @@ color: var(--accent-color);
 fill: var(--accent-color);
 }
 .mail-link-svg{
-
 fill: currentColor;
 margin-right: 10px;
 }
@@ -280,8 +274,8 @@ margin-bottom: 30px;
 background-color: var(--secondary-background-color);
 }
 .our-features-svg{
-  width: 70px;
-  height: 70px;
+width: 70px;
+height: 70px;
 }
 /*=========== END FEATURES =========*/
 
@@ -376,13 +370,11 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 margin-bottom: 20px;
 }
-
 .our-team-card{
 background-color: #ffffff;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
-
 .team-social-list{
 display: flex;
 justify-content: space-between;
@@ -390,9 +382,6 @@ padding-left: 38px;
 padding-right: 38px;
 padding-bottom: 38px;
 }
-.team-social-list-item{
-}
-
 .team-social-list-icon{
 width: 20px;
 height: 20px;
@@ -438,7 +427,7 @@ line-height: 1.67;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
-margin-top: 94px;
+
 margin-bottom: 56px;
 }
 .clients-item{
@@ -484,13 +473,10 @@ padding-top: 60px;
 padding-bottom: 60px;
 margin: auto;
 }
-
 .footer-menu{
 align-items: center;
 }
-
 .logo-footer{
-margin-bottom: 30px;
 display: block;
 font-family: var(--secondary-font);
 font-weight: bold;
@@ -498,6 +484,7 @@ font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
 color: var(--accent-color);
+margin-bottom: 30px;
 }
 .logo-footer-part-2 {
 color: var(--accent-text-color);
